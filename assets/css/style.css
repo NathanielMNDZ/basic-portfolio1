@@ -1,3 +1,6 @@
+body{
+	background-color: #ffffff;
+}
 h1 {
 	background-color: #4aaaa5;
 	color:white;
@@ -20,12 +23,34 @@ h2 {
 
 }
 p {
-	margin-left: 65px;
+	margin-left: 303px;
 	width:330px;
+	margin-top: -25px;
 
+
+
+}
+.p2 {
+	height: 5px;
+	width:125px;
+	margin: 10px;
+	
 }
 img {
 	height: 200px;
 	width: 215px;
+	float: left;
+	margin-left: 65px;
+	margin-top: -260px;
+
+
 
 }
+h4{
+	text-align: center;
+	color: white;
+	background-color: #666666;
+	height:40px;
+	padding-top: 30px;
+
+} 

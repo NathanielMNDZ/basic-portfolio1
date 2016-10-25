@@ -1,0 +1,41 @@
+<! Notes class 4, 10-24-16, 
+
+review parent elements in order to position something within the element. Outer box (position) will have a relitive position, inner can be absolute.
+
+children will be located within <div>'s 
+use less divs, try and divide the page with <section> or other <tags>
+
+element = 1
+
+link multiple style sheets into one html doc
+beware of conflicting styles
+
+multiple browsers will render the same element differently
+(render engines)
+
+**Reset.css (or Normalize.css) - This will reset all browser-specific css and make sites appear the same over multiple browsers.
+
+
+
+This is a common developer question!!!!!!
+
+Normalize and Reset - using someone elses CSS in your website
+important for cross-browser implementation
+
+--! Deployment!
+
+Heroku - cloud application hosting platform
+
+Deploy site using Heroku
+1. start (windows button)
+2. cmd and enter
+3. type heroku login (enter)
+4. Git hub create repository
+5. Git bash -- git clone repo
+6. cd into repo
+7. <?php include_once("HTML-bio-withCSS.html"); ?> 
+8. php tricks index to run 
+git remote -v
+heroku create 
+git push heroku master
+
